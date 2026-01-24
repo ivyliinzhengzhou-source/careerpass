@@ -1,6 +1,6 @@
 // Vercel Serverless Function - Career Compass Backend
 // 文件路径：api/jobs.js
-
+export const maxDuration = 300;
 export default async function handler(req, res) {
   // 允许跨域请求
   res.setHeader('Access-Control-Allow-Origin', '*');
